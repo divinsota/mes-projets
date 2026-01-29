@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de films</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Theme -->
+    <button class="theme-toggle" id="themeToggle">Changer thème</button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html">Accueil</a>
+        <a href="search.html">Recherche</a>
+    </nav>
+
+    <!-- Contenu principal -->
+    <main>
+        <!-- Barre de recherche -->
+        <input type="text" id="searchInput" placeholder="Rechercher un film..." aria-label="Barre de recherche de films">
+
+        <!-- Zone d'affichage des résultats -->
+        <div id="resultsContainer" class="results-container" aria-live="polite">
+            <!-- Les résultats vont apparaître ici -->
+        </div>
+
+        <!-- Bouton "Charger plus" -->
+        <button id="loadMore" style="display:none;">Charger plus</button>
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2025 – Cinéma du Village</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/search.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
